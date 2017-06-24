@@ -72,7 +72,7 @@ font-size: 2.3em;
   border-radius: 5px;
   color: white;
   font-size: 1em;
-  font-weight: lighter;
+  font-weight: normal;
   margin: auto;
   line-height: 2em;
 }
@@ -160,9 +160,23 @@ ul{
 ul, li{
   list-style: none;
   text-align: center;
-  height: 19px;
-  margin-top: 19px;
-  margin-bottom: 19px;
+  height: 40px;
+  line-height: 2.2em;
+}
+ul, li:first-child{
+  background-color: rgb(220, 220, 220);
+}
+ul, li:nth-child(2n+2){
+  background-color: rgba(220, 220, 220, 0.4);
+}
+.basic p{
+  color: rgb(26,167,142);
+}
+.standard p{
+  color: rgb(255,255,255);
+}
+.advance p{
+  color: rgb(26,167,142);
 }
 .basic{
   display: inline-block;
@@ -171,15 +185,25 @@ ul, li{
   border: 1px solid grey;
   margin-right: 3%;
   text-align: center;
+  background-color: rgb(255,255,255);
+  color: rgb(105, 105, 105);
 }
 .standard{
   display: inline-block;
   height: 400px;
   width: 31%;
-  border: 1px solid grey;
+  border: 1px solid rgb(26,167,142);
   vertical-align: top;
   margin-right: 3%;
   text-align: center;
+  background-color: rgb(26,167,142);
+  color: rgb(105, 105, 105);
+}
+.standard li:nth-last-child(2n+1){
+  background-color: rgb(255, 255, 255);
+}
+.standard li:nth-child(2n){
+  background-color: rgb(211, 211, 211);
 }
 .advance{
   display: inline-block;
@@ -188,6 +212,8 @@ ul, li{
   border: 1px solid grey;
   vertical-align: top;
   text-align: center;
+  background-color: rgb(255,255, 255);
+    color: rgb(105, 105, 105);
 }
 .clicker2{
   width: 150px;
@@ -197,11 +223,11 @@ ul, li{
   border-radius: 5px;
   color: white;
   font-size: 1em;
-  font-weight: lighter;
+  font-weight: normal;
   line-height: 2em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 240px;
+  margin-top: 135px;
 }
 .clicker3{
   width: 150px;
@@ -211,9 +237,43 @@ ul, li{
   border-radius: 5px;
   color: rgb(26,167,142);
   font-size: 1em;
-  font-weight: lighter;
+  font-weight: normal;
   line-height: 2em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 240px;
+  margin-top: 135px;
+}
+.topcircle{
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -22.5px;
+}
+.topcircle p{
+  width: 20px;
+  height: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  background-color: lightgrey;
+  margin: auto;
+  margin-top: 11px;
+}
+.amount{
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2em;
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  color: lightgrey;
+}
+.amount::first-line{
+  font-size: 1.7em;
+  font-weight: bold;
 }
