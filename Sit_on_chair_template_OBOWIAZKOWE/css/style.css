@@ -277,3 +277,128 @@ ul, li:nth-child(2n+2){
   font-size: 1.7em;
   font-weight: bold;
 }
+.fourthRow{
+  height: 600px;
+}
+form{
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+}
+input{
+  display: inline-block;
+  height: 60px;
+  width: 100%;
+  border: 1px solid rgb(26,167,142);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+webkit-input-placeholder{
+  color: lightgrey;
+  margin-left: 10px;
+}
+textarea{
+
+  border: 1px solid rgb(26,167,142);
+  resize: none;
+  width: 100%;
+  height: 170px;
+  font-size: 1.5em;
+  margin-right: 0 auto;
+}
+.redChair{
+  background-image: url("../images/red_chair.png");
+  height: 200px;
+  width: 25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: top;
+  margin-top: -20px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.form1{
+  background-image: url("../images/form_ok.jpg");
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(26,167,142);
+  display: inline-block;
+  margin-left: 0;
+}
+footer{
+  margin-bottom: 100px;
+}
+#clause{
+  color: grey;
+  font-size: 1em;
+  vertical-align: middle;
+  width: 40%;
+  margin: 0;
+  display: inline;
+}
+#copy{
+    float: left;
+}
+#copy::after{
+  clear: left;
+  content: '';
+  display: block;
+}
+  #bottomLogo{
+    float: right;
+    margin: 0;
+    vertical-align: top;
+  }
+}
+#icons{
+  margin-right: auto;
+}
+#twitter{
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-image: url("../images/twitter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+#pinterest{
+  margin-left: 10px;
+  float: right;
+  background-image: url("../images/pinterest.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+#vimeo{
+  margin-left: 10px;
+  float: right;
+  background-image: url("../images/vimeo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+#flicker{
+  float: right;
+  background-image: url("../images/flickr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+#flicker::after{
+  clear: right;
+  display: block;
+  content: '';
+}
